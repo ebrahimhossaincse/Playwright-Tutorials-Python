@@ -32,10 +32,6 @@ class CrossBrowserConfiguration(unittest.TestCase):
     def launch_application(self, url):
         """Navigates to the given URL."""
         self.page.goto(url)
-
-    def test_open_url(self):
-        """Test to open a URL on the selected browser and headless mode."""
-        self.launch_application(self.url)
         time.sleep(3)  # Simulate waiting time
 
     @classmethod

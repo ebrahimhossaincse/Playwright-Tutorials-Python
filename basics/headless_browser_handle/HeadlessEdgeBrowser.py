@@ -2,7 +2,7 @@ import unittest
 from playwright.sync_api import sync_playwright
 import time
 
-class TestChromeBrowser(unittest.TestCase):
+class HeadlessEdgeBrowser(unittest.TestCase):
     url = "https://staging-sp.dev.prep.achievetestprep.com/internal-login"
 
     @classmethod
